@@ -1,39 +1,9 @@
 {
   "stats": {
-    "minecraft:custom": {
-      "minecraft:time_since_rest": 21004,
-      "minecraft:leave_game": 2,
-      "minecraft:damage_taken": 1985,
-      "minecraft:mob_kills": 5,
-      "minecraft:time_since_death": 20964,
-      "minecraft:interact_with_furnace": 2,
-      "minecraft:sleep_in_bed": 2,
-      "minecraft:total_world_time": 74633,
-      "minecraft:swim_one_cm": 4098,
-      "minecraft:crouch_one_cm": 1575,
-      "minecraft:deaths": 2,
-      "minecraft:climb_one_cm": 45798,
-      "minecraft:interact_with_stonecutter": 1,
-      "minecraft:interact_with_crafting_table": 6,
-      "minecraft:walk_one_cm": 254364,
-      "minecraft:horse_one_cm": 8955,
-      "minecraft:walk_under_water_one_cm": 6968,
-      "minecraft:play_time": 74633,
-      "minecraft:damage_dealt": 1111,
-      "minecraft:jump": 1781,
-      "minecraft:drop": 6,
-      "minecraft:bell_ring": 51,
-      "minecraft:sprint_one_cm": 263597,
-      "minecraft:open_chest": 58,
-      "minecraft:fall_one_cm": 59575,
-      "minecraft:fly_one_cm": 245281,
-      "minecraft:walk_on_water_one_cm": 3097,
-      "minecraft:sneak_time": 733,
-      "minecraft:interact_with_blast_furnace": 2
-    },
     "minecraft:mined": {
-      "minecraft:short_grass": 11,
+      "minecraft:short_grass": 14,
       "minecraft:dirt": 9,
+      "minecraft:dandelion": 1,
       "minecraft:oak_log": 12,
       "minecraft:grass_block": 12
     },
@@ -42,7 +12,7 @@
       "minecraft:dirt": 366,
       "minecraft:diamond_helmet": 1,
       "minecraft:golden_boots": 1,
-      "minecraft:bone": 7,
+      "minecraft:bone": 8,
       "minecraft:oak_stairs": 1,
       "minecraft:oak_log": 14,
       "minecraft:wooden_axe": 1,
@@ -53,14 +23,15 @@
       "minecraft:wooden_hoe": 2,
       "minecraft:wooden_pickaxe": 2,
       "minecraft:wooden_sword": 1,
-      "minecraft:cooked_beef": 19,
+      "minecraft:cooked_beef": 53,
       "minecraft:diamond_boots": 1,
       "minecraft:arrow": 5,
-      "minecraft:rotten_flesh": 9,
+      "minecraft:rotten_flesh": 10,
       "minecraft:diamond_chestplate": 1,
       "minecraft:wooden_shovel": 2,
       "minecraft:apple": 1,
       "minecraft:string": 6,
+      "minecraft:dandelion": 1,
       "minecraft:diamond_leggings": 1,
       "minecraft:iron_chestplate": 1
     },
@@ -81,6 +52,51 @@
     "minecraft:killed_by": {
       "minecraft:zombie": 1
     },
+    "minecraft:killed": {
+      "minecraft:zombie": 3,
+      "minecraft:skeleton": 3
+    },
+    "minecraft:dropped": {
+      "minecraft:arrow": 1,
+      "minecraft:wooden_axe": 1,
+      "minecraft:spider_eye": 1,
+      "minecraft:string": 2,
+      "minecraft:dirt": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 31664,
+      "minecraft:leave_game": 3,
+      "minecraft:damage_taken": 2134,
+      "minecraft:mob_kills": 6,
+      "minecraft:time_since_death": 31624,
+      "minecraft:interact_with_furnace": 2,
+      "minecraft:sleep_in_bed": 2,
+      "minecraft:total_world_time": 85293,
+      "minecraft:swim_one_cm": 4550,
+      "minecraft:crouch_one_cm": 1914,
+      "minecraft:deaths": 2,
+      "minecraft:climb_one_cm": 45798,
+      "minecraft:interact_with_stonecutter": 1,
+      "minecraft:interact_with_crafting_table": 6,
+      "minecraft:walk_one_cm": 332995,
+      "minecraft:horse_one_cm": 8955,
+      "minecraft:walk_under_water_one_cm": 7994,
+      "minecraft:play_time": 85293,
+      "minecraft:damage_dealt": 1330,
+      "minecraft:jump": 1914,
+      "minecraft:drop": 6,
+      "minecraft:bell_ring": 51,
+      "minecraft:sprint_one_cm": 282718,
+      "minecraft:open_chest": 58,
+      "minecraft:fall_one_cm": 62144,
+      "minecraft:fly_one_cm": 253244,
+      "minecraft:walk_on_water_one_cm": 6594,
+      "minecraft:sneak_time": 937,
+      "minecraft:interact_with_blast_furnace": 2
+    },
+    "minecraft:broken": {
+      "minecraft:wooden_sword": 1
+    },
     "minecraft:used": {
       "minecraft:iron_leggings": 1,
       "minecraft:string": 2,
@@ -93,27 +109,13 @@
       "minecraft:diamond_chestplate": 2,
       "minecraft:wooden_shovel": 17,
       "minecraft:wheat_seeds": 2,
-      "minecraft:cooked_beef": 11,
+      "minecraft:cooked_beef": 14,
       "minecraft:wooden_axe": 3,
       "minecraft:wooden_sword": 60,
       "minecraft:golden_boots": 2,
       "minecraft:iron_chestplate": 2,
       "minecraft:dirt": 365,
       "minecraft:diamond_boots": 2
-    },
-    "minecraft:dropped": {
-      "minecraft:arrow": 1,
-      "minecraft:wooden_axe": 1,
-      "minecraft:spider_eye": 1,
-      "minecraft:string": 2,
-      "minecraft:dirt": 1
-    },
-    "minecraft:broken": {
-      "minecraft:wooden_sword": 1
-    },
-    "minecraft:killed": {
-      "minecraft:zombie": 3,
-      "minecraft:skeleton": 2
     }
   },
   "DataVersion": 4671

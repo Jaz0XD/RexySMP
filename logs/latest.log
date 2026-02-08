@@ -103,3 +103,861 @@
 [11:36:17] [Server thread/INFO]: All RegionFile I/O tasks to complete
 [11:36:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
 [11:36:17] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[14:12:23] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2; Arch Linux null) on Linux 6.18.7-zen1-1-zen (amd64)
+[14:12:23] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
+[14:12:23] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:12:24] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[14:12:24] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - SkinsRestorer (15.10.0)
+[14:12:26] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:12:27] [ServerMain/INFO]: Loaded 1470 recipes
+[14:12:27] [ServerMain/INFO]: Loaded 1584 advancements
+[14:12:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[14:12:27] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 191.1ms
+[14:12:27] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[14:12:27] [Server thread/INFO]: Loading properties
+[14:12:27] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[14:12:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:12:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:12:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:12:27] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[14:12:28] [Server thread/INFO]: Default game type: SURVIVAL
+[14:12:28] [Server thread/INFO]: Generating keypair
+[14:12:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:12:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:12:28] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[14:12:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[14:12:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:12:28] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[14:12:28] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[14:12:29] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:12:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:12:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:12:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:12:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:12:29] [Server thread/INFO]: Preparing level "world"
+[14:12:29] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[14:12:29] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[14:12:29] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[14:12:29] [Server thread/INFO]: Prepared spawn area in 0 ms
+[14:12:29] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[14:12:29] [Server thread/INFO]: Prepared spawn area in 0 ms
+[14:12:29] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[14:12:29] [Server thread/INFO]: Prepared spawn area in 1 ms
+[14:12:29] [Server thread/INFO]: Done preparing level "world" (0.262s)
+[14:12:29] [Server thread/INFO]: [spark] Starting background profiler...
+[14:12:29] [Server thread/INFO]: Running delayed init tasks
+[14:12:29] [Server thread/INFO]: Done (6.069s)! For help, type "help"
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:12:29] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:15:49] [User Authenticator #0/INFO]: UUID of player rxy_gg is 25e62cde-f8d8-3ccc-90de-a87f95872077
+[14:15:49] [Server thread/INFO]: rxy_gg joined the game
+[14:15:49] [Server thread/INFO]: rxy_gg[/127.0.0.1:49704] logged in with entity id 49 at ([world]-87.71718497825611, 82.0, -1.9647638581364126)
+[14:17:03] [User Authenticator #1/INFO]: UUID of player AStone1872 is 6af57b55-05e9-3e37-bd43-7dc35f836d25
+[14:17:04] [Server thread/INFO]: AStone1872 joined the game
+[14:17:04] [Server thread/INFO]: AStone1872[/49.36.11.155:51051] logged in with entity id 382 at ([world]280.46300057241996, 79.0, 219.25032294043754)
+[14:17:10] [Server thread/INFO]: Teleported rxy_gg to AStone1872
+[14:18:32] [Server thread/INFO]: rxy_gg has made the advancement [Cover Me with Diamonds]
+[14:18:36] [Server thread/INFO]: rxy_gg has made the advancement [Diamonds!]
+[14:22:04] [Server thread/INFO]: Teleported rxy_gg to AStone1872
+[14:23:39] [Server thread/INFO]: rxy_gg has made the advancement [Monster Hunter]
+[14:24:17] [Server thread/INFO]: rxy_gg has made the advancement [Sweet Dreams]
+[14:27:39] [Server thread/INFO]: rxy_gg has made the advancement [Stone Age]
+[14:34:21] [Server thread/INFO]: rxy_gg was blown up by Creeper
+[14:34:44] [Server thread/INFO]: An entity is required to run this command here
+[14:34:53] [Server thread/INFO]: Teleported rxy_gg to 38.500000, 79.000000, 311.500000
+[14:37:47] [Server thread/INFO]: rxy_gg lost connection: Disconnected
+[14:37:47] [Server thread/INFO]: rxy_gg left the game
+[14:57:33] [Server thread/INFO]: You whisper to AStone1872: suck my dick u fkin stupid cunt piece of shit
+[15:41:47] [Server thread/INFO]: AStone1872 fell from a high place
+[16:08:16] [Server thread/INFO]: There are 1 of a max of 20 players online: AStone1872
+[16:10:24] [Server thread/INFO]: AStone1872 lost connection: Disconnected
+[16:10:24] [Server thread/INFO]: AStone1872 left the game
+[16:45:10] [Server thread/INFO]: Saving the game (this may take a moment!)
+[16:45:10] [Server thread/INFO]: Saved the game
+[16:45:11] [Server thread/INFO]: Unknown or incomplete command. See below for error
+STOP<--[HERE]
+[16:45:13] [Server thread/INFO]: Stopping the server
+[16:45:13] [Server thread/INFO]: Stopping server
+[16:45:13] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[16:45:13] [Server thread/INFO]: Saving players
+[16:45:13] [Server thread/INFO]: Saving worlds
+[16:45:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:45:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:45:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:45:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:45:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:45:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:45:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:45:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:45:13] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:45:13] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:45:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:45:13] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[18:22:47] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2; Arch Linux null) on Linux 6.18.7-zen1-1-zen (amd64)
+[18:22:47] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
+[18:22:47] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:22:48] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[18:22:48] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - SkinsRestorer (15.10.0)
+[18:22:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[18:22:50] [ServerMain/INFO]: Loaded 1470 recipes
+[18:22:50] [ServerMain/INFO]: Loaded 1584 advancements
+[18:22:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[18:22:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 137.9ms
+[18:22:50] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[18:22:50] [Server thread/INFO]: Loading properties
+[18:22:50] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[18:22:50] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[18:22:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:22:50] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:22:50] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[18:22:51] [Server thread/INFO]: Default game type: SURVIVAL
+[18:22:51] [Server thread/INFO]: Generating keypair
+[18:22:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:22:51] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:22:51] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[18:22:51] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[18:22:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:22:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[18:22:51] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[18:22:51] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[18:22:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:22:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:22:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:22:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:22:51] [Server thread/INFO]: Preparing level "world"
+[18:22:51] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[18:22:51] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[18:22:51] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[18:22:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[18:22:51] [Server thread/INFO]: Preparing spawn area: 100%
+[18:22:51] [Server thread/INFO]: Prepared spawn area in 1 ms
+[18:22:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[18:22:51] [Server thread/INFO]: Preparing spawn area: 100%
+[18:22:51] [Server thread/INFO]: Prepared spawn area in 1 ms
+[18:22:51] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[18:22:51] [Server thread/INFO]: Prepared spawn area in 0 ms
+[18:22:51] [Server thread/INFO]: Done preparing level "world" (0.201s)
+[18:22:51] [Server thread/INFO]: [spark] Starting background profiler...
+[18:22:52] [Server thread/INFO]: Running delayed init tasks
+[18:22:52] [Server thread/INFO]: Done (4.516s)! For help, type "help"
+[18:24:29] [User Authenticator #0/INFO]: UUID of player rxy_gg is 25e62cde-f8d8-3ccc-90de-a87f95872077
+[18:24:30] [Server thread/INFO]: rxy_gg joined the game
+[18:24:30] [Server thread/INFO]: rxy_gg[/127.0.0.1:34074] logged in with entity id 59 at ([world]12.696928709791454, 78.0, 280.9960002065209)
+[18:26:37] [Server thread/INFO]: JeRRY_Hehe (/122.169.36.197:55964) lost connection: Disconnected
+[18:26:37] [User Authenticator #1/INFO]: UUID of player JeRRY_Hehe is 44aeee78-fb8a-3872-a993-5bd15eb57136
+[18:26:44] [User Authenticator #1/INFO]: UUID of player JeRRY_Hehe is 44aeee78-fb8a-3872-a993-5bd15eb57136
+[18:26:44] [Server thread/INFO]: JeRRY_Hehe joined the game
+[18:26:44] [Server thread/INFO]: JeRRY_Hehe[/122.169.36.197:55969] logged in with entity id 930 at ([world]-1.5, 68.0, -3.5)
+[18:38:37] [User Authenticator #2/INFO]: UUID of player AStone1872 is 6af57b55-05e9-3e37-bd43-7dc35f836d25
+[18:38:38] [Server thread/INFO]: AStone1872 joined the game
+[18:38:38] [Server thread/INFO]: AStone1872[/49.36.11.155:49989] logged in with entity id 3277 at ([world]285.2648145493455, 71.0, 214.32809281719534)
+[18:40:24] [Server thread/INFO]: rxy_gg has made the advancement [Enchanter]
+[18:42:11] [Server thread/INFO]: JeRRY_Hehe has made the advancement [Sweet Dreams]
+[18:43:21] [Server thread/INFO]: JeRRY_Hehe has made the advancement [Suit Up]
+[18:44:25] [Server thread/INFO]: JeRRY_Hehe has made the advancement [Monster Hunter]
+[18:44:55] [Server thread/INFO]: JeRRY_Hehe has made the advancement [Acquire Hardware]
+[18:47:07] [Server thread/INFO]: rxy_gg has made the advancement [What a Deal!]
+[18:48:24] [User Authenticator #3/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[18:48:24] [Server thread/INFO]: JazXD joined the game
+[18:48:24] [Server thread/INFO]: JazXD[/103.176.167.202:1530] logged in with entity id 5180 at ([world]248.78208862339346, 72.0, 174.8312832067116)
+[18:49:13] [Async Chat Thread - #1/INFO]: [Not Secure] <AStone1872> jaz bhai
+[18:49:16] [Async Chat Thread - #1/INFO]: [Not Secure] <AStone1872> kaha
+[18:49:21] [Async Chat Thread - #1/INFO]: [Not Secure] <JazXD> helloooo
+[18:49:27] [Async Chat Thread - #1/INFO]: [Not Secure] <AStone1872> vc kab aaoge
+[18:49:38] [Async Chat Thread - #1/INFO]: [Not Secure] <JazXD> just ghar aaya. thoda coffee chai peeke aata hunn
+[18:49:41] [Async Chat Thread - #0/INFO]: [Not Secure] <AStone1872> ok sir
+[18:49:52] [Async Chat Thread - #0/INFO]: [Not Secure] <JazXD> nice house stonie
+[18:50:01] [Async Chat Thread - #0/INFO]: [Not Secure] <AStone1872> thank you bhai
+[18:50:24] [Async Chat Thread - #0/INFO]: [Not Secure] <JazXD> hello Jerry bhai. Welcome to RexySMP
+[18:59:15] [Server thread/INFO]: JeRRY_Hehe has made the advancement [What a Deal!]
+[19:01:41] [Server thread/INFO]: JeRRY_Hehe has made the advancement [Diamonds!]
+[19:01:58] [Server thread/INFO]: JeRRY_Hehe has made the advancement [Cover Me with Diamonds]
+[19:04:12] [Server thread/INFO]: Saving the game (this may take a moment!)
+[19:04:12] [Server thread/INFO]: Saved the game
+[19:04:14] [Server thread/INFO]: rxy_gg issued server command: /
+[19:10:03] [Server thread/INFO]: rxy_gg lost connection: Disconnected
+[19:10:03] [Server thread/INFO]: rxy_gg left the game
+[19:15:00] [Server thread/INFO]: Villager Villager['Fletcher'/283, uuid='9172674b-53e9-47d5-9b90-84280cd66023', l='ServerLevel[world]', x=156.47, y=66.86, z=121.70, cpos=[9, 7], tl=58567, v=true] died, message: 'Fletcher drowned'
+[19:17:39] [Server thread/INFO]: JeRRY_Hehe lost connection: Disconnected
+[19:17:39] [Server thread/INFO]: JeRRY_Hehe left the game
+[19:25:51] [User Authenticator #4/INFO]: UUID of player JeRRY_Hehe is 44aeee78-fb8a-3872-a993-5bd15eb57136
+[19:25:51] [Server thread/INFO]: JeRRY_Hehe joined the game
+[19:25:51] [Server thread/INFO]: JeRRY_Hehe[/122.169.36.197:59889] logged in with entity id 13992 at ([world]109.69999998807907, 80.0, 331.4720858098532)
+[19:38:09] [Server thread/INFO]: JeRRY_Hehe has made the advancement [We Need to Go Deeper]
+[19:39:43] [Server thread/INFO]: JazXD has made the advancement [A Terrible Fortress]
+[19:39:55] [Server thread/INFO]: JeRRY_Hehe has made the advancement [A Terrible Fortress]
+[19:41:03] [Server thread/INFO]: JazXD has made the advancement [Into Fire]
+[19:42:42] [Server thread/INFO]: JeRRY_Hehe has made the advancement [Into Fire]
+[19:46:28] [Async Chat Thread - #2/INFO]: [Not Secure] <JazXD> come lets go back home
+[19:47:17] [Server thread/INFO]: JeRRY_Hehe burned to death
+[20:04:38] [Server thread/INFO]: JazXD issued server command: /save-all
+[20:09:02] [Async Chat Thread - #4/INFO]: [Not Secure] <JazXD> -365 53 1172
+[20:16:13] [Server thread/INFO]: JeRRY_Hehe lost connection: Disconnected
+[20:16:13] [Server thread/INFO]: JeRRY_Hehe left the game
+[20:24:17] [User Authenticator #5/INFO]: UUID of player MCScans is 741dd650-0e0e-3eee-9b33-20726b56e524
+[20:24:17] [Server thread/INFO]: MCScans (/45.148.10.134:58350) lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed with error(-104): Connection reset by peer
+[20:26:48] [Async Chat Thread - #6/INFO]: [Not Secure] <JazXD> 100 ~ 100
+[20:30:31] [User Authenticator #6/INFO]: UUID of player JeRRY_Hehe is 44aeee78-fb8a-3872-a993-5bd15eb57136
+[20:30:32] [Server thread/INFO]: JeRRY_Hehe joined the game
+[20:30:32] [Server thread/INFO]: JeRRY_Hehe[/122.169.36.197:59789] logged in with entity id 45147 at ([world]137.36612434501743, 61.0, 122.85288389255346)
+[20:35:38] [Server thread/INFO]: Made JazXD a server operator
+[20:45:26] [Server thread/INFO]: JazXD lost connection: Disconnected
+[20:45:26] [Server thread/INFO]: JazXD left the game
+[20:48:32] [Server thread/INFO]: AStone1872 was slain by Zombie
+[20:52:37] [Server thread/INFO]: AStone1872 lost connection: Disconnected
+[20:52:37] [Server thread/INFO]: AStone1872 left the game
+[21:00:25] [Server thread/INFO]: JeRRY_Hehe has made the advancement [Stone Age]
+[21:23:15] [Server thread/INFO]: JeRRY_Hehe lost connection: Disconnected
+[21:23:15] [Server thread/INFO]: JeRRY_Hehe left the game
+[21:35:05] [User Authenticator #7/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[21:35:05] [Server thread/INFO]: JazXD joined the game
+[21:35:05] [Server thread/INFO]: JazXD[/103.176.167.202:1602] logged in with entity id 57807 at ([world_nether]170.69999998807907, 52.0, -389.4243420776485)
+[21:38:10] [Server thread/INFO]: JazXD has made the advancement [Those Were the Days]
+[21:39:41] [Server thread/INFO]: JazXD has made the advancement [War Pigs]
+[21:40:43] [Server thread/INFO]: JazXD has made the advancement [Hidden in the Depths]
+[21:42:36] [Server thread/INFO]: JazXD has made the advancement [Oh Shiny]
+[21:49:19] [Server thread/INFO]: JazXD lost connection: Disconnected
+[21:49:19] [Server thread/INFO]: JazXD left the game
+[21:52:11] [User Authenticator #8/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[21:52:11] [Server thread/INFO]: JazXD joined the game
+[21:52:11] [Server thread/INFO]: JazXD[/103.176.167.202:1780] logged in with entity id 59132 at ([world_nether]143.69999998807907, 33.0, -328.66931834031357)
+[22:14:22] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:14:22] [Server thread/INFO]: [JazXD: Saved the game]
+[22:23:01] [Server thread/INFO]: JazXD fell from a high place
+[22:27:56] [Async Chat Thread - #8/INFO]: [Not Secure] <JazXD> -132 78 -220
+[22:28:04] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:04] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:07] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:07] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:09] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:09] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:09] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:10] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:10] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:10] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:10] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:10] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:14] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:14] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:14] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:14] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:14] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:14] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:15] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:15] [Server thread/INFO]: [JazXD: Saved the game]
+[22:28:15] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:28:15] [Server thread/INFO]: [JazXD: Saved the game]
+[22:33:26] [User Authenticator #9/INFO]: UUID of player popiiumaa is fae24770-a9dc-3e25-bfd8-af53c18301c9
+[22:33:26] [Server thread/INFO]: popiiumaa (/20.61.126.211:41497) lost connection: Disconnected
+[22:33:56] [Server thread/INFO]: JazXD issued server command: /plugins
+[22:38:15] [Server thread/INFO]: JazXD lost connection: Disconnected
+[22:38:15] [Server thread/INFO]: JazXD left the game
+[22:38:19] [User Authenticator #10/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[22:38:19] [Server thread/INFO]: JazXD joined the game
+[22:38:19] [Server thread/INFO]: JazXD[/103.176.167.202:1803] logged in with entity id 65840 at ([world]-29.50720875121343, -18.0, 229.94462369322895)
+[22:40:29] [Server thread/INFO]: Banned 20.61.126.211:41497: Banned by an operator.
+[22:40:37] [Async Chat Thread - #10/INFO]: [Not Secure] <JazXD> :0
+[22:40:49] [Async Chat Thread - #10/INFO]: [Not Secure] <JazXD> server ban
+[22:41:16] [Async Chat Thread - #10/INFO]: [Not Secure] <JazXD> rexy check playerdata file if you notice anything unusual
+[22:41:42] [Async Chat Thread - #10/INFO]: [Not Secure] <JazXD> there is supposed to be 4 + your 'n' number of accounts that joined UUIDs
+[22:41:59] [Server thread/INFO]: You whisper to JazXD: will do later, i m going off to bed rn
+[22:42:05] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:42:06] [Server thread/INFO]: Saved the game
+[22:42:08] [Async Chat Thread - #10/INFO]: [Not Secure] <JazXD> oh
+[22:42:16] [Async Chat Thread - #10/INFO]: [Not Secure] <JazXD> bed? this soon?
+[22:42:43] [Async Chat Thread - #10/INFO]: [Not Secure] <JazXD> im thinking of enabling whitelist
+[22:42:49] [Server thread/INFO]: You whisper to JazXD: I am restarting the server hold on
+[22:42:54] [Async Chat Thread - #10/INFO]: [Not Secure] <JazXD> okay
+[22:42:55] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:42:55] [Server thread/INFO]: Saved the game
+[22:43:05] [Server thread/INFO]: Stopping the server
+[22:43:05] [Server thread/INFO]: Stopping server
+[22:43:05] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[22:43:05] [Server thread/INFO]: Saving players
+[22:43:05] [Server thread/INFO]: JazXD lost connection: Server closed
+[22:43:05] [Server thread/INFO]: JazXD left the game
+[22:43:05] [Server thread/INFO]: Saving worlds
+[22:43:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:43:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:43:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:43:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Saved 22 block chunks, 206 entity chunks, 0 poi chunks in world 'world' in 0.08s
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[22:43:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[22:43:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[22:43:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[22:43:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:43:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:43:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:43:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:43:06] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[22:43:06] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[22:43:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:43:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[22:43:12] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2; Arch Linux null) on Linux 6.18.7-zen1-1-zen (amd64)
+[22:43:12] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
+[22:43:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:43:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[22:43:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - SkinsRestorer (15.10.0)
+[22:43:13] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:43:14] [ServerMain/INFO]: Loaded 1470 recipes
+[22:43:14] [ServerMain/INFO]: Loaded 1584 advancements
+[22:43:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[22:43:14] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 142.3ms
+[22:43:14] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[22:43:14] [Server thread/INFO]: Loading properties
+[22:43:14] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[22:43:14] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:43:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:43:14] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:43:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:43:15] [Server thread/INFO]: Default game type: SURVIVAL
+[22:43:15] [Server thread/INFO]: Generating keypair
+[22:43:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:43:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:43:15] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[22:43:15] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[22:43:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:43:15] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[22:43:15] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[22:43:16] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:43:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:43:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:43:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:43:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:43:16] [Server thread/INFO]: Preparing level "world"
+[22:43:16] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[22:43:16] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[22:43:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[22:43:16] [Server thread/INFO]: Prepared spawn area in 1 ms
+[22:43:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[22:43:16] [Server thread/INFO]: Prepared spawn area in 0 ms
+[22:43:16] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[22:43:16] [Server thread/INFO]: Prepared spawn area in 0 ms
+[22:43:16] [Server thread/INFO]: Done preparing level "world" (0.200s)
+[22:43:16] [Server thread/INFO]: [spark] Starting background profiler...
+[22:43:16] [Server thread/INFO]: Running delayed init tasks
+[22:43:16] [Server thread/INFO]: Done (4.735s)! For help, type "help"
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[22:43:16] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[22:43:24] [Server thread/INFO]: Incorrect argument for command
+whitelist JazXD<--[HERE]
+[22:43:42] [Server thread/INFO]: Added JazXD to the whitelist
+[22:43:51] [User Authenticator #0/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[22:43:52] [Server thread/INFO]: JazXD joined the game
+[22:43:52] [Server thread/INFO]: JazXD[/103.176.167.202:1739] logged in with entity id 55 at ([world]-29.756644775694404, -18.0, 229.75401312560479)
+[22:43:54] [Server thread/INFO]: Added AStone1872 to the whitelist
+[22:44:09] [Async Chat Thread - #0/INFO]: [Not Secure] <JazXD> Jerry_Hehe
+[22:44:19] [Server thread/INFO]: JazXD lost connection: Disconnected
+[22:44:19] [Server thread/INFO]: JazXD left the game
+[22:44:48] [Server thread/INFO]: Added JeRRY_Hehe to the whitelist
+[22:44:56] [User Authenticator #1/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[22:44:56] [Server thread/INFO]: JazXD joined the game
+[22:44:56] [Server thread/INFO]: JazXD[/103.176.167.202:1709] logged in with entity id 387 at ([world]-29.588161046576882, -18.0, 230.0027073849026)
+[22:45:01] [Server thread/INFO]: JazXD issued server command: /whitelist list
+[22:45:12] [Server thread/INFO]: Added rxy_fps to the whitelist
+[22:45:25] [Server thread/INFO]: Added rxy_gg to the whitelist
+[22:45:33] [Server thread/INFO]: JazXD issued server command: /whitelist list
+[22:45:51] [Server thread/INFO]: Removed rxy_fps from the whitelist
+[22:46:04] [Server thread/INFO]: JazXD lost connection: Disconnected
+[22:46:04] [Server thread/INFO]: JazXD left the game
+[22:46:11] [Server thread/INFO]: Removed JazXD from the whitelist
+[22:46:15] [User Authenticator #2/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[22:46:15] [Server thread/INFO]: JazXD joined the game
+[22:46:15] [Server thread/INFO]: JazXD[/103.176.167.202:1903] logged in with entity id 715 at ([world]-31.80824689295034, -18.0, 229.65422012698772)
+[22:46:22] [Server thread/INFO]: JazXD issued server command: /whitelist on
+[22:46:30] [Server thread/INFO]: JazXD issued server command: /whitelist list
+[22:46:30] [Server thread/INFO]: Added 103.176.167.202:1903 to the whitelist
+[22:46:34] [Server thread/INFO]: JazXD issued server command: /whitelist list
+[22:46:37] [Server thread/INFO]: Reloaded the whitelist
+[22:46:41] [Server thread/INFO]: JazXD issued server command: /whitelist list
+[22:46:43] [Server thread/INFO]: There are 4 whitelisted player(s): AStone1872, JeRRY_Hehe, 103.176.167.202:1903, rxy_gg
+[22:46:43] [Server thread/INFO]: JazXD lost connection: Disconnected
+[22:46:43] [Server thread/INFO]: JazXD left the game
+[22:46:46] [User Authenticator #2/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[22:46:46] [Server thread/INFO]: JazXD joined the game
+[22:46:46] [Server thread/INFO]: JazXD[/103.176.167.202:1592] logged in with entity id 811 at ([world]-31.314883735535417, -18.0, 229.71620200559573)
+[22:47:01] [Server thread/INFO]: Removed 103.176.167.202:1903 from the whitelist
+[22:47:07] [Server thread/INFO]: JazXD issued server command: /whitelist reload
+[22:47:07] [Server thread/INFO]: [JazXD: Reloaded the whitelist]
+[22:47:13] [Server thread/INFO]: JazXD issued server command: /deop JazXD
+[22:47:13] [Server thread/INFO]: [JazXD: Made JazXD no longer a server operator]
+[22:47:20] [Server thread/INFO]: JazXD lost connection: Disconnected
+[22:47:20] [Server thread/INFO]: JazXD left the game
+[22:47:23] [User Authenticator #2/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[22:47:23] [Server thread/INFO]: Disconnecting JazXD (/103.176.167.202:1879): You are not whitelisted on this server!
+[22:47:23] [Server thread/INFO]: JazXD (/103.176.167.202:1879) lost connection: You are not whitelisted on this server!
+[22:47:34] [Server thread/INFO]: Made JazXD a server operator
+[22:47:38] [User Authenticator #2/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[22:47:38] [Server thread/INFO]: JazXD joined the game
+[22:47:38] [Server thread/INFO]: JazXD[/103.176.167.202:1673] logged in with entity id 935 at ([world]-31.01202331579974, -18.0, 229.72842693776428)
+[22:47:45] [Server thread/INFO]: JazXD issued server command: /whitelist list
+[22:50:03] [Server thread/INFO]: JazXD issued server command: /help
+[22:50:21] [Server thread/INFO]: JazXD issued server command: /help Aliases
+[22:50:38] [Server thread/INFO]: JazXD issued server command: /sr status
+[22:50:48] [Server thread/INFO]: JazXD issued server command: /help
+[22:51:29] [Server thread/INFO]: JazXD issued server command: /help minecraft:banlist
+[22:51:37] [Server thread/INFO]: JazXD issued server command: /banlist players
+[22:51:47] [Server thread/INFO]: JazXD issued server command: /banlist ips
+[23:08:12] [Server thread/INFO]: JazXD lost connection: Timed out
+[23:08:12] [Server thread/INFO]: JazXD left the game
+[23:09:08] [User Authenticator #3/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[23:09:08] [Server thread/INFO]: JazXD joined the game
+[23:09:08] [Server thread/INFO]: JazXD[/103.176.167.202:1523] logged in with entity id 4466 at ([world]197.20574323415104, 68.9375, 161.8836382720463)
+[23:09:22] [Async Chat Thread - #1/INFO]: [Not Secure] <JazXD> wtf
+[23:09:48] [Server thread/INFO]: JazXD issued server command: /save-all
+[23:09:48] [Server thread/INFO]: [JazXD: Saved the game]
+[23:27:06] [Server thread/INFO]: JazXD issued server command: /save-all
+[23:27:06] [Server thread/INFO]: [JazXD: Saved the game]
+[23:52:54] [Server thread/INFO]: JazXD issued server command: /save-all
+[23:52:54] [Server thread/INFO]: [JazXD: Saved the game]
+[23:58:55] [User Authenticator #4/INFO]: UUID of player AStone1872 is 6af57b55-05e9-3e37-bd43-7dc35f836d25
+[23:58:56] [Server thread/INFO]: AStone1872 joined the game
+[23:58:56] [Server thread/INFO]: AStone1872[/49.36.11.120:49292] logged in with entity id 12548 at ([world]187.30000001192093, 69.0, 129.7414476497888)
+[00:10:13] [Server thread/INFO]: JazXD issued server command: /save-all
+[00:10:13] [Server thread/INFO]: [JazXD: Saved the game]
+[00:10:17] [Server thread/INFO]: JazXD issued server command: /whitelist list
+[00:22:57] [User Authenticator #5/INFO]: UUID of player SlayeR07 is 3e915185-d858-373e-819c-089d98f9ec85
+[00:22:57] [Server thread/INFO]: Disconnecting SlayeR07 (/45.252.73.170:57418): You are not whitelisted on this server!
+[00:22:57] [Server thread/INFO]: SlayeR07 (/45.252.73.170:57418) lost connection: You are not whitelisted on this server!
+[00:23:11] [User Authenticator #5/INFO]: UUID of player SlayeR07 is 3e915185-d858-373e-819c-089d98f9ec85
+[00:23:11] [Server thread/INFO]: Disconnecting SlayeR07 (/45.252.73.170:60329): You are not whitelisted on this server!
+[00:23:11] [Server thread/INFO]: SlayeR07 (/45.252.73.170:60329) lost connection: You are not whitelisted on this server!
+[00:24:51] [Server thread/INFO]: JazXD issued server command: /whitelist add SlayeR07
+[00:24:51] [Server thread/INFO]: [JazXD: Added SlayeR07 to the whitelist]
+[00:25:01] [User Authenticator #6/INFO]: UUID of player SlayeR07 is 3e915185-d858-373e-819c-089d98f9ec85
+[00:25:02] [Server thread/INFO]: SlayeR07 joined the game
+[00:25:02] [Server thread/INFO]: SlayeR07[/45.252.73.170:60447] logged in with entity id 17295 at ([world]707.0916817542325, 66.0, 300.6964892318815)
+[00:25:03] [Server thread/INFO]: JazXD issued server command: /whitelist list
+[00:33:55] [Server thread/INFO]: SlayeR07 lost connection: Disconnected
+[00:33:55] [Server thread/INFO]: SlayeR07 left the game
+[00:46:09] [Async Chat Thread - #3/INFO]: [Not Secure] <JazXD> LIFO
+[00:55:57] [Server thread/INFO]: AStone1872 has made the advancement [Enchanter]
+[01:03:32] [Server thread/INFO]: JazXD lost connection: Disconnected
+[01:03:32] [Server thread/INFO]: JazXD left the game
+[01:03:36] [User Authenticator #7/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[01:03:36] [Server thread/INFO]: JazXD joined the game
+[01:03:36] [Server thread/INFO]: JazXD[/103.176.167.202:1632] logged in with entity id 25348 at ([world]-30.32248607969729, -18.0, 229.84064014636564)
+[01:03:41] [Server thread/INFO]: JazXD issued server command: /save-all
+[01:03:41] [Server thread/INFO]: [JazXD: Saved the game]
+[01:17:04] [Server thread/INFO]: AStone1872 lost connection: Disconnected
+[01:17:04] [Server thread/INFO]: AStone1872 left the game
+[01:17:09] [Server thread/INFO]: JazXD issued server command: /save-all
+[01:17:09] [Server thread/INFO]: [JazXD: Saved the game]
+[01:29:05] [Server thread/INFO]: JazXD issued server command: /save-all
+[01:29:05] [Server thread/INFO]: [JazXD: Saved the game]
+[01:46:04] [Server thread/INFO]: JazXD issued server command: /save-all
+[01:46:04] [Server thread/INFO]: [JazXD: Saved the game]
+[01:56:41] [Server thread/INFO]: JazXD issued server command: /save-all
+[01:56:41] [Server thread/INFO]: [JazXD: Saved the game]
+[02:16:05] [Server thread/WARN]: JazXD moved wrongly!
+[02:18:02] [Server thread/INFO]: JazXD issued server command: /save-all
+[02:18:02] [Server thread/INFO]: [JazXD: Saved the game]
+[02:40:41] [Server thread/INFO]: JazXD issued server command: /plugins
+[02:44:39] [Server thread/INFO]: JazXD issued server command: /save-all
+[02:44:39] [Server thread/INFO]: [JazXD: Saved the game]
+[02:56:17] [Server thread/INFO]: JazXD issued server command: /save-all
+[02:56:17] [Server thread/INFO]: [JazXD: Saved the game]
+[02:56:24] [Server thread/INFO]: JazXD issued server command: /stop
+[02:56:24] [Server thread/INFO]: [JazXD: Stopping the server]
+[02:56:24] [Server thread/INFO]: Stopping server
+[02:56:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[02:56:24] [Server thread/INFO]: Saving players
+[02:56:24] [Server thread/INFO]: JazXD lost connection: Server closed
+[02:56:24] [Server thread/INFO]: JazXD left the game
+[02:56:25] [Server thread/INFO]: Saving worlds
+[02:56:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Saved 14 block chunks, 224 entity chunks, 0 poi chunks in world 'world' in 0.07s
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[02:56:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[02:56:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[02:56:25] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[02:56:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:56:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:56:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:56:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:56:25] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[02:56:25] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[02:56:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[02:56:25] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[11:54:42] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2; Arch Linux null) on Linux 6.18.7-zen1-1-zen (amd64)
+[11:54:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
+[11:54:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:54:43] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[11:54:43] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - SkinsRestorer (15.10.0)
+[11:54:45] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[11:54:46] [ServerMain/INFO]: Loaded 1470 recipes
+[11:54:46] [ServerMain/INFO]: Loaded 1584 advancements
+[11:54:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[11:54:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 208.2ms
+[11:54:46] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[11:54:46] [Server thread/INFO]: Loading properties
+[11:54:46] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[11:54:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:54:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:54:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:54:47] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[11:54:47] [Server thread/INFO]: Default game type: SURVIVAL
+[11:54:47] [Server thread/INFO]: Generating keypair
+[11:54:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:54:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:54:47] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[11:54:47] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[11:54:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:54:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[11:54:47] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[11:54:48] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[11:54:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:54:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:54:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:54:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:54:48] [Server thread/INFO]: Preparing level "world"
+[11:54:48] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[11:54:48] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[11:54:48] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[11:54:48] [Server thread/INFO]: Prepared spawn area in 0 ms
+[11:54:48] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[11:54:48] [Server thread/INFO]: Prepared spawn area in 0 ms
+[11:54:48] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[11:54:48] [Server thread/INFO]: Prepared spawn area in 0 ms
+[11:54:48] [Server thread/INFO]: Done preparing level "world" (0.304s)
+[11:54:48] [Server thread/INFO]: [spark] Starting background profiler...
+[11:54:48] [Server thread/INFO]: Running delayed init tasks
+[11:54:48] [Server thread/INFO]: Done (6.536s)! For help, type "help"
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[11:54:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[12:21:49] [User Authenticator #0/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[12:21:50] [Server thread/INFO]: JazXD joined the game
+[12:21:50] [Server thread/INFO]: JazXD[/103.176.167.202:1828] logged in with entity id 152 at ([world]162.27524207993645, 70.0, 124.19705842415472)
+[12:41:04] [Server thread/INFO]: JazXD issued server command: /save-all
+[12:41:04] [Server thread/INFO]: [JazXD: Saved the game]
+[13:26:23] [Server thread/INFO]: JazXD lost connection: Disconnected
+[13:26:23] [Server thread/INFO]: JazXD left the game
+[13:50:56] [Server thread/INFO]: Saving the game (this may take a moment!)
+[13:50:56] [Server thread/INFO]: Saved the game
+[13:50:57] [Server thread/INFO]: Stopping the server
+[13:50:57] [Server thread/INFO]: Stopping server
+[13:50:57] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[13:50:58] [Server thread/INFO]: Saving players
+[13:50:58] [Server thread/INFO]: Saving worlds
+[13:50:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[13:50:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[13:50:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[13:50:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[13:50:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:50:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:50:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:50:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:50:58] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[13:50:58] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[13:50:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[13:50:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[21:39:59] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2; Arch Linux null) on Linux 6.18.7-zen1-1-zen (amd64)
+[21:39:59] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
+[21:39:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:39:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[21:39:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - SkinsRestorer (15.10.0)
+[21:40:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:40:02] [ServerMain/INFO]: Loaded 1470 recipes
+[21:40:02] [ServerMain/INFO]: Loaded 1584 advancements
+[21:40:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:40:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 137.6ms
+[21:40:02] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[21:40:02] [Server thread/INFO]: Loading properties
+[21:40:02] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[21:40:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:40:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:40:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:40:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:40:02] [Server thread/INFO]: Default game type: SURVIVAL
+[21:40:02] [Server thread/INFO]: Generating keypair
+[21:40:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:40:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:40:02] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:40:02] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[21:40:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:40:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[21:40:03] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[21:40:03] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:40:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:40:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:40:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:40:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:40:03] [Server thread/INFO]: Preparing level "world"
+[21:40:03] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[21:40:03] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:40:03] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[21:40:03] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[21:40:03] [Server thread/INFO]: Prepared spawn area in 0 ms
+[21:40:03] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[21:40:03] [Server thread/INFO]: Prepared spawn area in 0 ms
+[21:40:03] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[21:40:03] [Server thread/INFO]: Prepared spawn area in 0 ms
+[21:40:03] [Server thread/INFO]: Done preparing level "world" (0.223s)
+[21:40:03] [Server thread/INFO]: [spark] Starting background profiler...
+[21:40:03] [Server thread/INFO]: Running delayed init tasks
+[21:40:03] [Server thread/INFO]: Done (4.478s)! For help, type "help"
+[21:44:56] [User Authenticator #0/INFO]: UUID of player JazXD is ad6e0103-676f-3506-855c-55aa6654717c
+[21:44:57] [Server thread/INFO]: JazXD joined the game
+[21:44:57] [Server thread/INFO]: JazXD[/103.176.167.202:1783] logged in with entity id 64 at ([world]-32.122466371897744, -18.0, 229.54673475597818)
+[22:56:11] [Server thread/INFO]: JazXD issued server command: /save-all
+[22:56:11] [Server thread/INFO]: [JazXD: Saved the game]
+[22:56:28] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:56:28] [Server thread/INFO]: Saved the game
+[22:57:08] [Server thread/INFO]: Stopping the server
+[22:57:08] [Server thread/INFO]: Stopping server
+[22:57:08] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[22:57:08] [Server thread/INFO]: Saving players
+[22:57:08] [Server thread/INFO]: JazXD lost connection: Server closed
+[22:57:08] [Server thread/INFO]: JazXD left the game
+[22:57:08] [Server thread/INFO]: Saving worlds
+[22:57:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:57:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:57:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:57:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Saved 16 block chunks, 265 entity chunks, 0 poi chunks in world 'world' in 0.06s
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[22:57:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[22:57:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[22:57:09] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[22:57:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:57:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:57:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:57:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:57:09] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[22:57:09] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[22:57:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:57:09] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[12:24:50] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2; Arch Linux null) on Linux 6.18.7-zen1-1-zen (amd64)
+[12:24:50] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) for Minecraft 1.21.11
+[12:24:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:24:50] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:24:50] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - SkinsRestorer (15.10.0)
+[12:24:52] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[12:24:53] [ServerMain/INFO]: Loaded 1470 recipes
+[12:24:53] [ServerMain/INFO]: Loaded 1584 advancements
+[12:24:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[12:24:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 134.4ms
+[12:24:53] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[12:24:53] [Server thread/INFO]: Loading properties
+[12:24:53] [Server thread/INFO]: This server is running Paper version 1.21.11-69-main@94d0c97 (2025-12-30T20:33:30Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[12:24:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:24:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:24:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:24:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[12:24:53] [Server thread/INFO]: Default game type: SURVIVAL
+[12:24:53] [Server thread/INFO]: Generating keypair
+[12:24:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:24:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:24:53] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[12:24:53] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.10.0
+[12:24:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:24:53] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.10.0
+[12:24:54] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.11.
+[12:24:54] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[12:24:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:24:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:24:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:24:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:24:54] [Server thread/INFO]: Preparing level "world"
+[12:24:54] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] NUMA enable flag is not set; however there is NUMA interaction support for this OS.
+[12:24:54] [Server thread/INFO]: [ca.spottedleaf.moonrise.common.util.MoonriseConstants] Detected 1 NUMA nodes.
+[12:24:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[12:24:54] [Server thread/INFO]: Prepared spawn area in 0 ms
+[12:24:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[12:24:54] [Server thread/INFO]: Prepared spawn area in 0 ms
+[12:24:54] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[12:24:54] [Server thread/INFO]: Prepared spawn area in 0 ms
+[12:24:54] [Server thread/INFO]: Done preparing level "world" (0.177s)
+[12:24:54] [Server thread/INFO]: [spark] Starting background profiler...
+[12:24:54] [Server thread/INFO]: Running delayed init tasks
+[12:24:54] [Server thread/INFO]: Done (4.466s)! For help, type "help"
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.10.0
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: fcb9320
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[12:24:54] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:03:30] [Server thread/INFO]: Unknown or incomplete command. See below for error
+exitr<--[HERE]
+[14:03:32] [Server thread/INFO]: Unknown or incomplete command. See below for error
+exit<--[HERE]
+[14:03:35] [Server thread/INFO]: Saving the game (this may take a moment!)
+[14:03:35] [Server thread/INFO]: Saved the game
+[14:03:36] [Server thread/INFO]: Stopping the server
+[14:03:36] [Server thread/INFO]: Stopping server
+[14:03:36] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.10.0
+[14:03:36] [Server thread/INFO]: Saving players
+[14:03:36] [Server thread/INFO]: Saving worlds
+[14:03:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[14:03:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[14:03:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[14:03:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[14:03:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:03:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:03:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:03:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:03:36] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[14:03:36] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[14:03:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[14:03:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
